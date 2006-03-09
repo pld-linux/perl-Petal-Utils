@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Petal
 %define	pnam	Utils
-Summary:	Petal::Utils - Useful template modifiers for Petal.
-#Summary(pl):	
+Summary:	Petal::Utils - Useful template modifiers for Petal
+Summary(pl):	Petal::Utils - przydatne modyfikatory szablonów dla Petala
 Name:		perl-Petal-Utils
 Version:	0.06
 Release:	0.1
@@ -19,19 +19,20 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl(Date::Format) >= 0.01
-BuildRequires:	perl(Petal) >= 1.06
+BuildRequires:	perl-Petal >= 1.06
 BuildRequires:	perl(URI::Escape) >= 3.0
-BuildRequires:	perl(Module::Build) >= 0.20
+BuildRequires:	perl-Module-Build >= 0.20
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The Petal::Utils package contains commonly used Petal modifiers (or plugins),
-and bundles them with an easy-to-use installation interface. 
+The Petal::Utils package contains commonly used Petal modifiers (or
+plugins), and bundles them with an easy-to-use installation interface.
 
-# %description -l pl
-# TODO
+%description -l pl
+Pakiet Petal::Utils zawiera poplarne modyfikatory (lub wtyczki) Petala
+i ³±czy je przy u¿yciu ³atwego interfejsu instalacyjnego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
