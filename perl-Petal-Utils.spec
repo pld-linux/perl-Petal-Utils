@@ -9,7 +9,7 @@ Summary:	Petal::Utils - Useful template modifiers for Petal
 Summary(pl):	Petal::Utils - przydatne modyfikatory szablonów dla Petala
 Name:		perl-Petal-Utils
 Version:	0.06
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
