@@ -6,7 +6,7 @@
 %define	pdir	Petal
 %define	pnam	Utils
 Summary:	Petal::Utils - Useful template modifiers for Petal
-Summary(pl):	Petal::Utils - przydatne modyfikatory szablonów dla Petala
+Summary(pl.UTF-8):   Petal::Utils - przydatne modyfikatory szablonÃ³w dla Petala
 Name:		perl-Petal-Utils
 Version:	0.06
 Release:	1
@@ -30,9 +30,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Petal::Utils package contains commonly used Petal modifiers (or
 plugins), and bundles them with an easy-to-use installation interface.
 
-%description -l pl
+%description -l pl.UTF-8
 Pakiet Petal::Utils zawiera poplarne modyfikatory (lub wtyczki) Petala
-i ³±czy je przy u¿yciu ³atwego interfejsu instalacyjnego.
+i Å‚Ä…czy je przy uÅ¼yciu Å‚atwego interfejsu instalacyjnego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
