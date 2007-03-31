@@ -15,13 +15,14 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/W/WM/WMCKEE/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d93d4e1724a967891b4974b6985986cb
+URL:		http://search.cpan.org/dist/Petal-Utils/
+BuildRequires:	perl-Module-Build >= 0.20
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl(Date::Format) >= 0.01
 BuildRequires:	perl-Petal >= 1.06
 BuildRequires:	perl(URI::Escape) >= 3.0
-BuildRequires:	perl-Module-Build >= 0.20
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
