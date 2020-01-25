@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Petal
 %define	pnam	Utils
 Summary:	Petal::Utils - Useful template modifiers for Petal
